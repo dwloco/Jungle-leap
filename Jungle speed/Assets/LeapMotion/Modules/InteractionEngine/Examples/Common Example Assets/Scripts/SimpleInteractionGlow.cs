@@ -65,7 +65,8 @@ public class SimpleInteractionGlow : MonoBehaviour {
       // than any other interaction object.
       if (_intObj.isPrimaryHovered && usePrimaryHover) {
         targetColor = primaryHoverColor;
-      }
+        Debug.Log("Aca te daria una carta");
+      }    
       else {
         // Of course, any number of objects can be hovered by any number of InteractionHands.
         // InteractionBehaviour provides an API for accessing various interaction-related
