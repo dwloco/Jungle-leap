@@ -577,6 +577,7 @@ GameObject:
   - component: {fileID: 124275133}
   - component: {fileID: 124275132}
   - component: {fileID: 124275131}
+  - component: {fileID: 124275137}
   - component: {fileID: 124275138}
   m_Layer: 0
   m_Name: Mazo
@@ -689,13 +690,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 124275130}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.209, y: -0.42, z: -0.395}
-  m_LocalScale: {x: 0.18, y: 0.05, z: 0.15}
+  m_LocalRotation: {x: -0, y: -0.54641926, z: -0, w: 0.83751184}
+  m_LocalPosition: {x: 0.20900024, y: -0.42, z: -0.3950003}
+  m_LocalScale: {x: 0.17148961, y: 0.04864126, z: 0.20047134}
   m_Children: []
   m_Father: {fileID: 562917531}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -66.243004, z: 0}
+--- !u!114 &124275137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 124275130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf6b8e74994c20843949f733f199060f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &124275138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2295,7 +2307,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4299111203110852, guid: 8998b2da307be7f419e285784a8495a6, type: 2}
       propertyPath: m_LocalScale.x
-      value: 0.27
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4299111203110852, guid: 8998b2da307be7f419e285784a8495a6, type: 2}
       propertyPath: m_LocalScale.y
