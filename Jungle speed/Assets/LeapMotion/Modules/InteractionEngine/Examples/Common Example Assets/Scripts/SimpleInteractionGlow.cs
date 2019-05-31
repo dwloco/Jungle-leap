@@ -73,7 +73,6 @@ public class SimpleInteractionGlow : MonoBehaviour
             if (_intObj.isPrimaryHovered && usePrimaryHover)
             {
                 targetColor = primaryHoverColor;
-                CrearCarta.GenerarCarta(); //Esto es nuestro :3
             }
             else
             {
