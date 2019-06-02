@@ -27,15 +27,11 @@ public class Main : MonoBehaviour {
     {
         Mezclar(ref listaMazoTotal);
         Mezclar(ref listaMazoTotal);
-        int listaIndex = 0;
-        for (int i = 0; i < listaMazoTotal.Count/iCantJugadores; i++)
+        for (int i = 0; i < listaMazoTotal.Count; i++)
         {
-            for (int j = 0; j < iCantJugadores; j++)
-            {
-                jugadores[j].AgregarCarta(listaMazoTotal[listaIndex]);
-                listaIndex++;
-            }
-            
+            //TODO: dividirlo por iCantJugadores, cuando permitamos elegir la cantidad de jugadores
+            int iIndexJug = i % 4;
+            jugadores[iIndexJug].AgregarCarta(listaMazoTotal[i]);
         }
     }
 
