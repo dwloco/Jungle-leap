@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Carta : MonoBehaviour {
     private int iDCarta = -1;
-    public GameObject prefav;
+    public GameObject prefab;
     private string Color;
     private string Forma;
 

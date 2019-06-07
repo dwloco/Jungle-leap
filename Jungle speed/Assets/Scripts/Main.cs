@@ -6,8 +6,8 @@ using UnityEngine.Events;
 
 
 public class Main : MonoBehaviour {
-    const int CANTCARTAS = 1;
-    public GameObject[] prefavCartas = new GameObject[CANTCARTAS];
+    const int CANTCARTAS = 80;
+    public GameObject[] prefabCartas = new GameObject[CANTCARTAS];
     Carta[] arrayMazoTotal = new Carta[CANTCARTAS];
     Jugador[] jugadores = new Jugador[4];
     public GameObject[] cartasEstaticas = new GameObject[4];
@@ -40,7 +40,7 @@ public class Main : MonoBehaviour {
     {
         Debug.Log("holissss");
         Vector3 pos = new Vector3(-0.2686f, 0.1245f, -0.493f);
-        Instantiate(prefavCartas[0],
+        Instantiate(prefabCartas[0],
             transform.position += pos,
             Quaternion.identity);
     }
@@ -75,7 +75,7 @@ public class Main : MonoBehaviour {
         for (int i = 0; i < CANTCARTAS; i++)
         {
             arrayMazoTotal[i] = new Carta(i+1);
-            arrayMazoTotal[i].prefav = prefavCartas[i];
+            arrayMazoTotal[i].prefab = prefabCartas[i];
         }
     }
 

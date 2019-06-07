@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class MiCarta : MonoBehaviour {
 
-    public GameObject prefav = null;
+    public GameObject prefab = null;
 	// Use this for initialization
 	void Start () {
-        Instantiate(prefav,
+        Instantiate(prefab,
             transform.position,
             Quaternion.identity);
 	}
