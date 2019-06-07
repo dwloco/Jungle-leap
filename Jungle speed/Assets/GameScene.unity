@@ -9202,12 +9202,12 @@ MonoBehaviour:
   prefabCartas:
   - {fileID: 100000, guid: ba730478f3ac6264398b5e0094b31b2b, type: 3}
   - {fileID: 100000, guid: 83112a4e72a03114b90df85aa48440a4, type: 3}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 100000, guid: 0d47a7451fb988a4ab025f17eb03aef0, type: 3}
+  - {fileID: 100000, guid: 428ea9bdbf0638846934d451d97e877d, type: 3}
+  - {fileID: 100000, guid: e65e6e063f39d10419b3218ad1152c84, type: 3}
+  - {fileID: 100000, guid: 0b4a7b737ab16814c8127eb5412c44e8, type: 3}
+  - {fileID: 100000, guid: 39a9c4e690f3b03499a25bf04160b3bf, type: 3}
+  - {fileID: 100000, guid: b807406a19beda048a7d1d94cb545ec7, type: 3}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
